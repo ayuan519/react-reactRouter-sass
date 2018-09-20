@@ -15,7 +15,7 @@ import Header from '../../components/header';
      render() { 
          return ( 
              <div className="homePage">
-                <Header></Header>
+                <Header title="首页" history={this.props.history} />
                 首页
                 <button onClick={this.jumpDetail}>详情</button>
              </div>

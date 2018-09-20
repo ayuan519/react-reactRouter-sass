@@ -1,0 +1,30 @@
+.header{
+    padding: 0 .1rem;
+    height: .8rem;
+    background: #fafafa;
+    position: relative;
+    border-bottom: .01rem solid #e9e9f0;
+    .header-back{
+        width: .6rem;
+        height: .6rem;
+        position: absolute;
+        top: 50%;
+        margin-top: -.3rem;
+    }
+    .header-title{
+        text-align: center;
+        line-height: .8rem;
+        font-size: .28rem;
+    }
+    .header-other{
+        height: .6rem;
+        position: absolute;
+        top: 50%;
+        right: .1rem;
+        margin-top: -.3rem;
+        img{
+            width: .6rem;
+            height: 100%;
+        }
+    }
+}

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from '../../components/header';
+
  class DetailPage extends Component {
      constructor(props) {
          super(props);
@@ -7,6 +9,7 @@ import React, { Component } from 'react';
      render() { 
          return ( 
              <div className="detailPage">
+                <Header title="详情" history={this.props.history}/>
                 详情
              </div>
           );
