@@ -1,7 +1,9 @@
 .page{
     height: 100%;
     .content{
-        height: calc(100% - 1rem);
+        height: calc(100% - 1.8rem);
+        overflow-y: auto;
+        padding-top: .8rem;
     }
     .tabbar{
         height: 1rem;
