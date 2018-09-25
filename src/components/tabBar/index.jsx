@@ -16,7 +16,6 @@ class tabBar extends Component {
         })
     }
     render() {
-        console.log(window)
         const tabItem = tabBardata.map((res) => {
             return (
                 <Item 
@@ -30,7 +29,7 @@ class tabBar extends Component {
                     icon={
                         <div className="img-box">
                             <img src={require('../../static/images/public/'+res.icon+'.png')} alt={res.title} />
-                        </div>
+                        </div> 
                     }
                     selectedIcon={
                         <div className="img-box">

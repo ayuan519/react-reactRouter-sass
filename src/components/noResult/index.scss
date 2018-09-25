@@ -1,0 +1,18 @@
+.no-result{
+    .noResult-img{
+        width: 1.87rem;
+        height: 1.87rem;
+        margin: 2.07rem auto .28rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .noResult-text{
+        text-align: center;
+        line-height: .3rem;
+        font-size: .26rem;
+        color:$color_text_1;
+        padding-bottom: 1.12rem;
+    }
+}

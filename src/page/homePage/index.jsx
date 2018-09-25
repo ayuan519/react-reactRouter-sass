@@ -37,4 +37,4 @@ import './index.scss'
      }
  }
   
- export default HomePage;
+export default HomePage;
